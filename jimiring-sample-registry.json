@@ -1,0 +1,91 @@
+{
+  "sourceBefore": "C:\\Users\\zhang.jingjie\\Desktop\\定制化换色前",
+  "sourceAfter": "C:\\Users\\zhang.jingjie\\Desktop\\定制化换色后",
+  "moduleNaming": "Use the SVG filename as the recorded module name when the export does not expose stable layer names.",
+  "pairedFiles": [
+    {
+      "module": "Ring首页",
+      "file": "Ring首页.svg",
+      "beforeColorCount": 37,
+      "afterColorCount": 41,
+      "removedColors": [],
+      "addedColors": ["#85C1EC", "#8D89FF", "#FF7B7B", "#FF81D9"],
+      "notes": "after-only additions"
+    },
+    {
+      "module": "历史报告",
+      "file": "历史报告.svg",
+      "beforeColorCount": 13,
+      "afterColorCount": 14,
+      "removedColors": [],
+      "addedColors": ["#0137BE"],
+      "notes": "single added blue token"
+    },
+    {
+      "module": "历史报告1",
+      "file": "历史报告1.svg",
+      "beforeColorCount": 20,
+      "afterColorCount": 21,
+      "removedColors": ["#FFDD62"],
+      "addedColors": ["#0137BE", "#5989FF"],
+      "notes": "one yellow token removed, two blue tokens added"
+    },
+    {
+      "module": "步数详情",
+      "file": "步数详情.svg",
+      "beforeColorCount": 7,
+      "afterColorCount": 8,
+      "removedColors": ["#151515", "#FFC900"],
+      "addedColors": ["#0137BE", "#333333", "#457AFF"],
+      "notes": "text and brand colors both changed"
+    },
+    {
+      "module": "步数详情年",
+      "file": "步数详情年.svg",
+      "beforeColorCount": 10,
+      "afterColorCount": 8,
+      "removedColors": ["#151515", "#FFC900", "#FFDD62", "#FFE483"],
+      "addedColors": ["#0137BE", "#333333"],
+      "notes": "collapsed to a smaller blue/gray set"
+    },
+    {
+      "module": "步数详情月",
+      "file": "步数详情月.svg",
+      "beforeColorCount": 7,
+      "afterColorCount": 8,
+      "removedColors": ["#151515", "#FFC900"],
+      "addedColors": ["#0137BE", "#333333", "#457AFF"],
+      "notes": "same shape as the other step-detail sample"
+    },
+    {
+      "module": "浅-周",
+      "file": "浅-周.svg",
+      "beforeColorCount": 7,
+      "afterColorCount": 7,
+      "removedColors": ["#151515", "#FFC900", "#FFDD62"],
+      "addedColors": ["#0137BE", "#333333", "#5989FF"],
+      "notes": "equal count, different palette"
+    },
+    {
+      "module": "选中当天无数据",
+      "file": "选中当天无数据.svg",
+      "beforeColorCount": 14,
+      "afterColorCount": 15,
+      "removedColors": [],
+      "addedColors": ["#0137BE"],
+      "notes": "single added blue token"
+    },
+    {
+      "module": "选中当天有数据",
+      "file": "选中当天有数据.svg",
+      "beforeColorCount": 15,
+      "afterColorCount": 16,
+      "removedColors": ["#C43B00"],
+      "addedColors": ["#0137BE", "#42E3FF"],
+      "notes": "status accent shifted"
+    }
+  ],
+  "afterOnlyFiles": [
+    "分享页.svg"
+  ]
+}
