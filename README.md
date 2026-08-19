@@ -8,7 +8,7 @@ Codex skill for module-based design recoloring. By default it changes colors onl
 
 ## What it does
 
-- Updates shared colors first
+- Modify the color of the definition module.
 - Keeps layout, spacing, and text unchanged
 - Supports SVG, Figma styles, and code-based UI
 
@@ -33,7 +33,7 @@ Retrieve the specified skill and apply a custom skin, clearly identifying the ar
 
 ## 它能做什么
 
-- 先改共享颜色
+- 修改制定模块的颜色
 - 保持布局、间距、文案不变
 - 支持 SVG、Figma 样式和代码型 UI
 
