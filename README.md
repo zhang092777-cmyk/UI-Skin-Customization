@@ -15,7 +15,7 @@ Codex skill for module-based design recoloring. By default it changes colors onl
 ## How to use
 
 ```text
-Use $design-skinner to change the Header module primary color to #FDC708 and leave everything else unchanged.
+Retrieve the specified skill and apply a custom skin, clearly identifying the areas to be modified and specifying any points that should remain unchanged.
 ```
 
 ## Structure
@@ -40,7 +40,7 @@ Use $design-skinner to change the Header module primary color to #FDC708 and lea
 ## 怎么用
 
 ```text
-Use $design-skinner to change the Header module primary color to #FDC708 and leave everything else unchanged.
+调取这个skill然后进行指定换肤，明确需要换肤的地方以及可以点名不需要改动的点。
 ```
 
 ## 目录说明
