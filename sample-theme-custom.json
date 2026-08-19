@@ -1,0 +1,10 @@
+{
+  "module": "Header",
+  "theme": "custom",
+  "brand": "#2F6BFF",
+  "bg": "#F4F7FF",
+  "text_primary": "#101828",
+  "text_secondary": "#667085",
+  "card": "#FFFFFF",
+  "card_stroke": "#D0D5DD"
+}
