@@ -33,7 +33,7 @@ Default to color-only changes.
 - React component trees
 - Figma pages that use named color styles or variables
 
-For SVG work, use the scripts in `scripts/` to inspect tokens, apply module-level color changes, and validate the result.
+For SVG work, use the scripts in `scripts/` to inspect tokens, apply module-level color changes, apply marked-region color changes, and validate the result.
 
 For Figma work, prefer editing shared color styles first, then let module instances inherit the updated tokens.
 
@@ -71,6 +71,7 @@ When editing source, return the minimal file changes needed to implement the req
 - `references/jimiring-sample-registry.md` for the recorded SVG before/after set
 - `scripts/extract-svg-skin.ps1` for SVG inspection
 - `scripts/apply-module-skin.ps1` for module-scoped SVG recoloring
+- `scripts/apply-marked-region-skin.ps1` for marked-region SVG recoloring
 - `scripts/apply-svg-skin.ps1` for SVG recoloring
 - `scripts/apply-svg-replacements.ps1` for exact color-to-color SVG replacements
 - `scripts/validate-skill.ps1` for basic repository checks
@@ -82,5 +83,6 @@ When editing source, return the minimal file changes needed to implement the req
 - `Change the Card module primary color to #1E66FF and set radius to 12.`
 - `Change the Button module to green and reduce the shadow.`
 - `Change the Header module to #0137BE without changing other modules.`
+- `Use the marked red box region and change it to #0137BE.`
 
 See [usage notes](references/usage.md) for the exact interaction pattern.

@@ -35,3 +35,7 @@ Example:
 ## Module-Scoped SVG Recolor
 
 `Use $design-skinner to recolor only the Header module to #0137BE with the module skin map, and leave the rest of the SVG unchanged.`
+
+## Marked Region Recolor
+
+`Use $design-skinner to recolor the marked red-box region to #0137BE and keep the rest unchanged.`

@@ -40,3 +40,9 @@ For module-scoped SVG recoloring, provide:
 - a module skin map JSON file
 
 Then run `scripts/apply-module-skin.ps1` so only that module's recorded tokens are changed.
+
+## Marked Region Shortcut
+
+For unnamed SVG areas, wrap the region in a `<g data-skin-target="Module">` block. You may place a visible outline inside the group and mark that outline with `data-skin-marker="true"` so it stays as a locator.
+
+Then run `scripts/apply-marked-region-skin.ps1` to recolor only that marked region.
