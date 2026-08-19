@@ -1,0 +1,9 @@
+{
+  "Header": ["header", "topbar", "nav"],
+  "Button": ["button", "cta", "action"],
+  "Card": ["card", "panel", "tile"],
+  "Sidebar": ["sidebar", "aside", "rail"],
+  "Tab": ["tab", "tabs"],
+  "Badge": ["badge", "pill", "tag"],
+  "Input": ["input", "field", "textbox"]
+}

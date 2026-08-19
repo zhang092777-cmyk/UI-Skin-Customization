@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Skinner"
+  short_description: "Help with design skinning tasks and workflows"
+  default_prompt: "Use $design-skinner to restyle the specified module by changing only the requested colors, and adjust radius or shadow only when explicitly asked."
