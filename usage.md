@@ -29,3 +29,14 @@ Only apply these when explicitly requested:
 ## Recorded Shortcut
 
 For the JimiRing sample set, use the filename as the module label and keep geometry unchanged. If you need exact color swaps, use `scripts/apply-svg-replacements.ps1` with a JSON map file.
+
+## Module Shortcut
+
+For module-scoped SVG recoloring, provide:
+
+- the source SVG
+- the module name
+- the target color
+- a module skin map JSON file
+
+Then run `scripts/apply-module-skin.ps1` so only that module's recorded tokens are changed.

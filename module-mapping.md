@@ -22,3 +22,6 @@
 - do not move layers
 - do not merge unrelated groups
 - do not restyle semantic data colors unless requested
+- for raw SVG exports, prefer a module skin map that records color tokens per module
+- only radius values recorded under the requested module may be changed
+- only shadow values recorded under the requested module may be changed

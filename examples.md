@@ -31,3 +31,7 @@ Example:
 ## Recorded SVG Set
 
 `Use the recorded JimiRing sample registry and keep the filename-based module mapping unchanged while recoloring only the matched tokens.`
+
+## Module-Scoped SVG Recolor
+
+`Use $design-skinner to recolor only the Header module to #0137BE with the module skin map, and leave the rest of the SVG unchanged.`

@@ -21,7 +21,7 @@ Default to color-only changes.
 
 1. Identify the target module name using normal component naming.
 2. Map that module to the matching shapes, text, and effects.
-3. Apply only the requested token changes.
+3. For SVGs, resolve the module through a module skin map and replace only that module's recorded tokens.
 4. Preserve all other properties exactly.
 5. If the module mapping is ambiguous, ask a short clarifying question.
 6. If the source has shared styles or variables, update those first.
@@ -70,14 +70,17 @@ When editing source, return the minimal file changes needed to implement the req
 - `references/examples.md` for prompt patterns
 - `references/jimiring-sample-registry.md` for the recorded SVG before/after set
 - `scripts/extract-svg-skin.ps1` for SVG inspection
+- `scripts/apply-module-skin.ps1` for module-scoped SVG recoloring
 - `scripts/apply-svg-skin.ps1` for SVG recoloring
 - `scripts/apply-svg-replacements.ps1` for exact color-to-color SVG replacements
 - `scripts/validate-skill.ps1` for basic repository checks
+- `assets/module-skin-map-template.json` for the module-to-token registry format
 
 ## Example Requests
 
 - `Change the Header module to brand yellow.`
 - `Change the Card module primary color to #1E66FF and set radius to 12.`
 - `Change the Button module to green and reduce the shadow.`
+- `Change the Header module to #0137BE without changing other modules.`
 
 See [usage notes](references/usage.md) for the exact interaction pattern.
