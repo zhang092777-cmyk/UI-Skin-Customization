@@ -2,7 +2,7 @@
 [Uploading README.en.md…]()
 
 
-# Design Skinner
+# Design Skinner（EN）
 
 Codex skill for module-based design recoloring. By default it changes colors only, with radius and shadow changes only when explicitly requested.
 
@@ -26,7 +26,8 @@ Use $design-skinner to change the Header module primary color to #FDC708 and lea
 - `scripts/` - SVG helpers and validation
 - `assets/` - sample theme data
 [README.zh.md](https://github.com/user-attachments/files/31211559/README.zh.md)
-# Design Skinner
+
+# Design Skinner（CN）
 
 这是一个给设计稿做“换肤”的 Codex skill，默认只改颜色；只有明确要求时才改圆角和阴影。
 
