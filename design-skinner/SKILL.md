@@ -1,5 +1,5 @@
 ---
-name: SKILL.md
+name: design-skinner
 description: Update a design by changing only the requested module colors by default, with optional corner-radius and shadow adjustments when explicitly asked. Use when the user wants to restyle a design, SVG, mockup, or UI while keeping layout, text, spacing, and structure unchanged.
 ---
 
