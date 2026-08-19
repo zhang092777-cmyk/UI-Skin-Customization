@@ -1,4 +1,4 @@
-[README.en.md](https://github.com/user-attachments/files/31211554/README.en.md)
+[README.md](https://github.com/user-attachments/files/31218718/README.md)[README.en.md](https://github.com/user-attachments/files/31211554/README.en.md)
 [Uploading README.en.md…]()
 
 
@@ -50,3 +50,40 @@ Retrieve the specified skill and apply a custom skin, clearly identifying the ar
 - `references/` - 流程和映射规则
 - `scripts/` - SVG 辅助和校验
 - `assets/` - 示例主题数据
+
+- [Upl# Design Skinner
+
+See:
+
+- [English](README.en.md)
+- [中文](README.zh.md)
+- [JimiRing sample registry](references/jimiring-sample-registry.md)
+
+## Marked Region Recolor
+
+If part of an SVG has no stable name, wrap it in a group and mark it:
+
+```svg
+<g data-skin-target="Header">
+  <rect x="24" y="24" width="212" height="44" rx="12" fill="#FFC900" />
+  <rect
+    x="24"
+    y="24"
+    width="212"
+    height="44"
+    rx="12"
+    fill="none"
+    stroke="#FF0000"
+    stroke-width="2"
+    data-skin-marker="true"
+  />
+</g>
+```
+
+Then ask:
+
+```text
+Use $design-skinner to recolor the marked Header region to #0137BE and keep the rest unchanged.
+```
+oading README.md…]()
+
