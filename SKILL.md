@@ -40,7 +40,7 @@ For Figma work, prefer editing shared color styles first, then let module instan
 
 ## Module Targets
 
-Use standard names like:
+1.Use standard names like:
 
 - `Header`
 - `Button`
@@ -49,6 +49,8 @@ Use standard names like:
 - `Tab`
 - `Badge`
 - `Input`
+  
+2.Areas marked by users using a selection box or text description.（You can choose either one）
 
 ## Change Rules
 
