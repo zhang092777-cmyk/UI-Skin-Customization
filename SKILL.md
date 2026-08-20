@@ -16,6 +16,7 @@ Default to color-only changes.
 - Change only fills, strokes, gradients, text color, icon color, border color, overlays, and state colors.
 - Do not change layout, copy, spacing, position, or sizing unless asked.
 - Only change corner radius or shadow when the user explicitly requests it.
+- The starting colors and custom colors must not be modified arbitrarily; users are required to provide the specific parameters for the final custom colors, and custom colors cannot be determined or created at one's own discretion.
 
 ## Workflow
 
