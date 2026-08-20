@@ -22,7 +22,7 @@
 ## JimiRing Theme Direction
 
 - original theme: yellow
-- custom theme: blue
+- custom theme: Any color
 
 Example:
 
