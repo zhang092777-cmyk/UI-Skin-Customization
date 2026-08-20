@@ -89,3 +89,22 @@ When editing source, return the minimal file changes needed to implement the req
 - `Use the marked red box region and change it to #0137BE.`
 
 See [usage notes](references/usage.md) for the exact interaction pattern.
+
+## Figma Source Editing Rule
+
+When the user asks to reskin a design:
+
+1. First inspect the local source or provided design file.
+2. If a Figma link or Figma source is available, ask:
+   "是否需要同步编辑 Figma 源文件？请选择：只修改本地文件 / 同步修改 Figma 源文件。"
+3. Do not edit Figma until the user confirms.
+4. If the user confirms:
+   - use the Figma MCP server
+   - inspect the exact Figma node or frame
+   - update shared color variables or styles first
+   - preserve layout, spacing, text, and geometry
+   - edit only the requested module or marked region
+5. After editing, report:
+   - changed Figma node
+   - changed color/style/variable
+   - whether local output was also updated
